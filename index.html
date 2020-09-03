@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Wyatt's Page</title>
+	<link rel="stylesheet" href="phone.css">
+  </head>
+  <body>
+	<div class="Tabs" id="d">
+		<button class="menu" id="Dial">Dialer</button>
+		<button class="menu" id="List">Contact List</button>
+		<button class="menu" id="Add">Add Contact</button>
+	</div>
+	<div class="Content" id="all">
+		<div id="content_dialer">
+            <header>
+                Dialer
+            </header>
+            <form>
+                <input class="Dialer" id="Dial"/>
+            </form>
+            <form>
+                <button class="Dialer" id="Dial">1</button>
+                <button class="Dialer" id="Dial">2</button>
+                <button class="Dialer" id="Dial">3</button> <br>
+                <button class="Dialer" id="Dial">4</button>
+                <button class="Dialer" id="Dial">5</button>
+                <button class="Dialer" id="Dial">6</button> <br>
+                <button class="Dialer" id="Dial">7</button>
+                <button class="Dialer" id="Dial">8</button>
+                <button class="Dialer" id="Dial">9</button> <br>
+                <button class="Dialer" id="Dial">*</button>
+                <button class="Dialer" id="Dial">0</button>
+                <button class="Dialer" id="Dial">#</button> <br>
+                <button class="Dialer" id="Dial">Dial</button>
+                <button class="Dialer" id="Dial">Clear</button>
+            </form>
+		</div>
+		<div id="content_list">
+            <header>
+                Contact List
+            </header>
+            <form>
+                <button class="CList" id="List">Will Smith</button>
+                <button class="CList" id="List">Bill Smith</button>
+                <button class="CList" id="List">Jill Smith</button> <br>
+                <button class="CList" id="List">Phil Smith</button>
+                <button class="CList" id="List">Chill Smith</button>
+                <button class="CList" id="List">Grill Smith</button> <br>
+                <button class="CList" id="List">Drill Smith</button>
+                <button class="CList" id="List">Thrill Smith</button>
+                <button class="CList" id="List">William Smith</button> <br>
+            </form>
+		</div>
+		<div id="content_add">
+            <header>
+                Add Contact
+            </header>
+            <form> 
+                <label for="name">Name</label>
+                <input id="name" placeholder="Jane Smith"> <br>
+                
+                <label for="phone">Phone Number</label>
+                <input id="phone" placeholder="(555)555-5555"> <br>
+                
+                <label for="email">Email Address</label>
+                <input id="email" placeholder="Jane.Smith@gmail.com"> <br>
+                
+                <button class="CAdd" id="Add">Add Contact</button>
+                <button class="CAdd" id="Clear">Clear</button>
+            </form>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="phone.js"></script>
+  </body>
+</html>
